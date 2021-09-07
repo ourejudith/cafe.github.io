@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comme chez Papa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/coffeeLogo.png" alt="logo cafe" class="logo">
+            </a>
+        </div>
+        <div class="toggle" onclick="toggleNav()"></div>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">Notre Menu</a>
+                </li>
+                <li>
+                    <a href="#">Nos Spécialités</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mainVideo">
+            <video src="coffeeVid.mp4" type="video/mp4" loop class="vid" muted></video>
+        </div>
+    </main>
+    <section class="section">
+        <div class="content">
+            <div class="intro">
+                <h2>Prenez un café</h2>
+                <h3>Comme à la maison</h3>
+                <p>Choisissez votre café préféré parmis notre sélection. Faites une pause et dégustez le, seul ou accompagné.</p>
+            </div>
+            <div class="img">
+                <div class="imgPart"><img src="images/coffee9.png" alt="Coffee" class="coffee"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="minis_container">
+        <ul class="minis">
+            <li><img src="images/coffee9.png" alt="Blue pepsi can" onmousemove="imgSlider('images/coffee9.png')//;changeBgColor('#0062be')">
+            </li>
+            <li><img src="images/coffee3.png" alt="Blue pepsi can" onmousemove="imgSlider('images/coffee3.png')//;changeBgColor('#e60c2c')">
+            </li>
+            <li><img src="images/coffee5.png" alt="Blue pepsi can" onmousemove="imgSlider('images/coffee5.png')//;changeBgColor('#1e1e1e')">
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; By Judith OURE - 2021</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
